@@ -1,0 +1,121 @@
+:root {
+  --main-bg-color: brown;
+  font-size: clamp(0.9375rem, 0.9119rem + 0.1136vw, 1rem);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  /* remove o sublinhado dos links */
+  color: black;
+  /* altera a cor de todos os links das páginas */
+}
+
+/*=============================================================
+                      HEADER
+=============================================================*/
+
+header {
+  padding: 3vw 10vw 3vw 10vw;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  margin: 0 13px 0 13px;
+}
+
+header nav ul li.atual a {
+  color: #FB2E86;
+}
+
+/*=======================================================
+                      BANNER
+=======================================================*/
+
+main section.banner {
+  display: flex;
+  background-color: #F2F0FF;
+  padding: 3vw 10vw 3vw 10vw;
+}
+
+main section.banner div p.destaque {
+  color: #FB2E86;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+section.banner div h2 {
+  font-weight: bold;
+  font-size: 3vw;
+  margin: 10px 0 10px 0;
+}
+
+section.banner p {
+  color: #8A8FB9;
+  font-size: 12px;
+}
+
+section.banner div p button {
+  background-color: #FB2E86;
+  padding: 10px 20px 10px 20px;
+  color: white;
+  font-size: 1.1rem;
+  border-radius: 3px;
+  margin: 25px 0 10px 0;
+}
+
+section.banner div.imagem {
+  width: 40%;
+  margin: 0 0 0 10%;
+}
+
+/*==========================================================
+                      body
+  ======================================================*/
+
+  section.produtos {
+      padding: 3vw 10vw 3vw 10vw;
+  }
+
+  section.produtos h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #1A0B5B;
+    margin:10px 0 10px 0;
+  }
+
+  section.produtos ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  section.produtos ul li {
+    width: 30%;
+  }
+
+  section.produtos ul li p {
+    background-color: #EEEFFB;
+    text-align: center;
+    margin: 20px 0 0 0;
+  }
+
+  section.produtos ul li h3 {
+    color: #151875;
+    margin: 10px 0 10px;
+  }
